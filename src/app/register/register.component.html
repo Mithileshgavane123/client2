@@ -1,0 +1,38 @@
+<p>register works!</p>
+
+
+<form (ngSubmit)="Insert()">
+    <legend>Add Player</legend>
+
+  <!-- <div class="form-group">
+        <label for="id">id</label>
+        <input type="text" class="form-control" id="id"  name="id" placeholder="id" [(ngModel)]="player.id">
+    </div> -->
+    you will get your ID automatically ... please fill following details ...
+
+    <div class="form-group">
+        <label for="Country">Country</label>
+        <input type="text" class="form-control" id="Country" name="Country" placeholder="Country" [(ngModel)]="player.Country">
+    </div>
+
+
+    <div class="form-group">
+        <label for="Year">Year</label>
+        <input type="text" class="form-control" id="Year" name="Year" placeholder="Year" [(ngModel)]="player.Year" >
+    </div>
+
+
+    <div class="form-group">
+        <label for="NoofTeam">NoofTeam</label>
+        <input type="text" class="form-control" id="NoofTeam" name="NoofTeam" placeholder="NoofTeam" [(ngModel)]="player.NoofTeam">
+    </div>
+
+
+    <div class="form-group">
+        <label for="Venue">Venue</label>
+        <input type="text" class="form-control" id="Venue" name="Venue" placeholder="Venue" [(ngModel)]="player.Venue" >
+    </div>
+
+
+    <button type="submit" class="btn btn-primary">Add Player</button>
+</form>

@@ -1,0 +1,26 @@
+<p>home works!</p>
+
+<div class="table-responsive">
+    <table class="table table-hover">
+    
+            <tr *ngFor="let player of players">
+                <td> {{player.id}} </td>
+                <td> {{player.Country}} </td>
+
+                <td> {{player.Year}} </td>
+                 <td>{{player.NoofTeam}}</td>
+                 <td>{{player.Venue}}</td>
+
+                <td>
+                    <a routerLink="/delete/{{player.id}}">Delete..</a>
+                </td>
+     
+                <td>
+                    <a routerLink="/edit/{{player.id}}">edit</a>
+                </td>  
+
+            </tr>
+       
+    </table>
+</div>
+<h1>data finish.!!!</h1>
